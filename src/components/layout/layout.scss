@@ -1,0 +1,33 @@
+@import '../../reponive.scss';
+
+.layout{
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @include xl{
+        // background-color: palevioletred;
+        max-width: 1700px;
+    }
+   
+    @include lg {
+        // background-color: rgb(168, 81, 49);
+        max-width: 1280px;
+    }
+    
+    @include md {
+        // background-color: rgb(186, 203, 234);
+        max-width: 768px;
+    }
+    
+    @include sm {
+        // background-color: rgb(239, 200, 200);
+      max-width: 640px;
+    }
+    
+
+}

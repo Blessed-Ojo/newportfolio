@@ -1,0 +1,38 @@
+.sidebar {
+   
+   h1{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+   }
+    .sidebars{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #171c20;
+        border: 2px solid white;
+        width: 50px;
+        border-radius: 50px;
+        max-width: 30px;
+    }
+
+    ul {
+        padding: 1rem;
+        li {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            a{
+                 color: white;
+                 transition: all 0.4s ease;
+                &:hover{
+                    color: #98faec;
+                    scale: 1.09;
+                }
+            }
+            
+        }
+    }
+}
