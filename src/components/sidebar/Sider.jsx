@@ -5,7 +5,6 @@ import './sider.scss'
 const Sider = () => {
   return (
     <div className='sidebar'>
-        <h1>Developer</h1>
         <div className="sidebars">
             <ul>
                 <li><a href=""><FaQrcode size={20}/></a></li>

@@ -1,11 +1,17 @@
 
 .Hero {
+ /* border: red solid 2px; */
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     display: flex;
-    flex-direction: column;
+   /* flex-direction: column; */
+    
     .h-wapper{
-        display: flex;
-        
+      width: 100%;
+      justify-content: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+    /* border: green solid 2px; */
         .info-dev{
             display: flex;
             flex-direction: row;
