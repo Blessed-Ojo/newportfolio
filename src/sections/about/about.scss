@@ -1,0 +1,31 @@
+.About{
+    position: relative;
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+
+    .background-blur {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        filter: blur(50px);
+        z-index: -1;
+     }
+     .blur1 {
+        background: #12F7D6;
+        top: 20%;
+        left: 30%;
+     }
+      
+     .blur2 {
+        background: #7d9fc5;
+        top: 90%;
+        left: 90%;
+      }
+    
+}

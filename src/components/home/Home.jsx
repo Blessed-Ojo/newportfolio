@@ -1,7 +1,8 @@
 import React from "react";
 import "./Home.scss";
-import Hero from "../../sections/Hero";
-import Sider from '../sidebar/Sider'
+import Hero from "../../sections/hero/Hero";
+import About from "../../sections/about/About";
+
 
 
 const Home = () => {
@@ -11,6 +12,10 @@ const Home = () => {
       <div id="Hero">
       <Hero />
       </div>
+       <div id="about">
+       
+         <About/>
+       </div>
     </div>
   );
 };

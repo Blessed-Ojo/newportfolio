@@ -7,7 +7,7 @@ const Sider = () => {
     <div className='sidebar'>
         <div className="sidebars">
             <ul>
-                <li><a href=""><FaQrcode size={20}/></a></li>
+                <li><a href="Hero"><FaQrcode size={20}/></a></li>
                 <li><a href=""><FaUser size={20}/></a></li>
                 <li><a href=""><FaCode size={20}/></a></li>
                 <li><a href=""><FaTools size={20} /></a></li>
