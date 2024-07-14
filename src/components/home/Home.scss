@@ -6,6 +6,48 @@
     border: 0.2px solid gray;
     margin-bottom: 40px;
    }
+   #Hero{
+      .background-blur {
+         position: absolute;
+         width: 300px;
+         height: 300px;
+         border-radius: 100%;
+         filter: blur(100px);
+         z-index: -1;
+      }
+      .blur1 {
+         background: #12F7D6;
+         top: 20%;
+         left: 5px;
+      }
+       
+      .blur2 {
+         background: #7d9fc5;
+         top: 50%;
+         left: 50%;
+       }
+   }
+   #about{
+      .background-blur {
+         position: absolute;
+         width: 300px;
+         height: 300px;
+         border-radius: 100%;
+         filter: blur(100px);
+         z-index: -1;
+      }
+      .blur3 {
+         background: #7d9fc5;
+         top: 100%;
+         left: 5px;
+      }
+       
+      .blur4 {
+         background: #12F7D6;
+         top: 150%;
+         left: 50%;
+       }
+   }
 
    
 }
