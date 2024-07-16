@@ -14,7 +14,7 @@ const Hero = () => {
         <Sider />
         <div className="info-dev">
           <img src="hero.png" alt="" />
-          <h1>Prince</h1>
+          <h1>Ojo Blessed</h1>
           <p>Frontend-Developer</p>
           <div className="list">
             <ol>
@@ -51,7 +51,7 @@ const Hero = () => {
           <span>{"<h1>"}</span>
           <h1>
             Hey <br />
-            I'm <span>Prince</span>,<br />a <span>Frontend-Developer</span> from{" "}
+            I'm <span>Ojo Blessed</span>,<br />a <span>Frontend-Developer</span> from{" "}
             <span>Nigeria</span> <br />
           </h1>
           <span>{"</h1>"}</span>

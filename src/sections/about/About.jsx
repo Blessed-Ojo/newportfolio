@@ -14,12 +14,12 @@ const About = () => {
           <span>{'<p>'}</span>
            <h1>Hello!</h1>
           <p>
-            My name is Prince and I specialize in web development that
+            My name is <span> Ojo Blessed</span> and I specialize in web development that
             utilizes <span>HTML</span>, <span>CSS</span>, <span>JS</span>, <span>SASS</span>, <span>TAILWIND</span> and <span>REACT</span>.
           </p>
           <p>
             My goal is to create a <span>website</span> that is both visually appealing and
-            <span>functional</span>.
+            <span> functional</span>.
           </p>
           <p>
             My hobbies include playing <span>video games</span>, watching anime, and reading
