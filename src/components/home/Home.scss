@@ -1,10 +1,15 @@
 .home{
    padding: auto;
    margin: auto;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
    
-   hr{
+   .hr{
     border: 0.2px solid gray;
     margin-bottom: 40px;
+    width: 1250px;
    }
    #Hero{
       .background-blur {
@@ -48,6 +53,47 @@
          left: 50%;
        }
    }
-
+   #work{
+      .background-blur {
+         position: absolute;
+         width: 300px;
+         height: 300px;
+         border-radius: 100%;
+         filter: blur(100px);
+         z-index: -1;
+      }
+      .blur6 {
+         background: #12F7D6;
+         top: 450%;
+         left: 100px;
+      }
+       
+      .blur5 {
+         background: #7d9fc5;
+         top: 450%;
+         left: 60%;
+       }
+   }
+   #contact{
+      .background-blur {
+         position: absolute;
+         width: 350px;
+         height: 350px;
+         border-radius: 100%;
+         filter: blur(100px);
+         z-index: -1;
+      }
+      .blur7 {
+         background: #12F7D6;
+         top: 550%;
+         left: 100px;
+      }
+       
+      .blur8 {
+         background: #7d9fc5;
+         top: 550%;
+         left: 60%;
+       }
+   }
    
 }

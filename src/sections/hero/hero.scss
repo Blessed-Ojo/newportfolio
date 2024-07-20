@@ -85,12 +85,52 @@
         align-items: center;
         flex: 4;
         gap: 1rem;
+
         .info-text {
             display: flex;
             flex-direction: column;
             font-size: 15px;
             color: white;
-            gap: 10px;
+            gap: 5px;
+            .loader {
+                position: relative;
+                overflow: hidden;
+                padding: 0;
+                margin: 0;
+                border-right: 2px solid;
+                height: 50px;
+                width: 10px;
+                animation: typewriter 3s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;
+
+                .text-loader {
+                    font-size: 40px;
+                    font-weight: 700;
+                    background: linear-gradient(to left,#12f7d6, #1a1e23);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    @keyframes typewriter {
+                        0% {
+                          width: 0px;
+                        }
+                      
+                        100% {
+                          width: 240px;
+                        }
+                      }
+                      
+                      @keyframes blink {
+                        0% {
+                          border-right-color: rgba(255,255,255,.75);
+                          ;
+                        }
+                      
+                        100% {
+                          border-right-color: transparent;
+                        }
+                      }
+                }
+                
+            }
             span {
                 color: #12f7d6;
                 &:first-child {
@@ -137,6 +177,12 @@
                 color: white;
                 padding: 15px 30px;
                 font-weight: 400;
+                cursor: pointer;
+                transition: all 0.4s ease;
+                &:hover{
+                    color: #12f7d6;
+                    transform: scale(1.5);
+                }
 
                 span {
                     color: #12f7d6;

@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="logo">
         <h1>
           {"<C/>"}
-          <span className="logoname">PrinceDev</span>
+          <span className="logoname">Blessed</span>Dev
         </h1>
       </div>
 
@@ -62,6 +62,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      
     </nav>
       
   );

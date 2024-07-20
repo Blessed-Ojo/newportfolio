@@ -5,25 +5,6 @@ import { IoPhonePortraitOutline } from "react-icons/io5";
 import React, { useRef } from 'react';
 
 const Skills = () => {
-    const swiperWrapperRef = useRef(null);
-
-    // Function to handle swipe movement
-    const moveSwiper = (direction) => {
-      const swiperWrapper = swiperWrapperRef.current;
-      const slideWidth = swiperWrapper.children[0].offsetWidth -1; // Adjusted for margin-right
-  
-      let currentTranslateX = swiperWrapper.style.transform ? parseInt(swiperWrapper.style.transform.match(/-?\d+/)[0]) : 0;
-      let newTranslateX;
-  
-      if (direction === 'next') {
-        newTranslateX = currentTranslateX - slideWidth;
-      } else if (direction === 'prev') {
-        newTranslateX = currentTranslateX + slideWidth;
-      }
-  
-      swiperWrapper.style.transform = `translateX(${newTranslateX}px)`;
-    };
-
   return (
     <div className="Skills">
       <div className="skill-header">

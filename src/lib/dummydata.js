@@ -1,3 +1,5 @@
+
+
 export const skilldata = [
     {
       imgSrc: 'https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png',
@@ -32,4 +34,5 @@ export const skilldata = [
         text:'Sass'
     }
 ];
+
   
